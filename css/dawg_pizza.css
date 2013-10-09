@@ -3,7 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 
 body {
-	background-color: black;
+	//background-color: black;
+	background-color: #ffcc33;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 	color: white;
@@ -18,24 +19,23 @@ body {
 h1 {
 	font-family: "Alef", sans-serif;
 	font-size: 350%;
-	color: yellow;
 	background-color: #8559c4;
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 2px 2px black;
 	padding: .5em 450px;
 }
 
 h1 a {
-	color: yellow;
+	color: #ffd147;
 }
 
 nav {
 	float: left;
-	background-color: red;
+	background-color: #8559c4;
 	width: 175px;
 }
 
 nav a {
-	color: yellow;
+	color: white;
 	font-weight: bold;
 	display: block;
 	padding: 15px;
@@ -76,18 +76,19 @@ p {
 }
 
 .pizza-order {
-	height: 125px;
-	width: 250px;
-	margin-left: 250px;
-	margin-bottom: 20px;
+	height: 155px;
+	width: 280px;
+	float: right;
 }
 
 h2 {
 	margin-left: 275px;
 	font-family: "Alef", sans-serif;
-	color: yellow;
+	color: #8559c4;
 	font-size: 200%;
+	font-weight: bold;
 	margin-bottom: 20px;
+	text-shadow: 2px 2px white;
 }
 
 .menu {
@@ -99,7 +100,7 @@ h2 {
 h3 {
 	font-weight: bold;
 	margin-bottom: 10px;
-	color: red;
+	color: #8559c4;
 }
 
 .menu dt, .menu ul {
@@ -125,7 +126,8 @@ h3 {
 }
 
 .menu li {
-	font-size: 11pt;
+	font-size: 11.5pt;
+	margin-bottom: 5px;
 	list-style-type: circle;
 	margin-left: 20px;
 }
