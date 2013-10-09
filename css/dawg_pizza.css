@@ -3,17 +3,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 
 body {
-	//background-color: black;
 	background-color: #ffcc33;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 	color: white;
 }
 
-.logo {
-	float: left;
-	height: 125px;
-	width:  175px;
+p {
+	margin-bottom: 20px;
 }
 
 h1 {
@@ -26,6 +23,28 @@ h1 {
 
 h1 a {
 	color: #ffd147;
+}
+
+h2 {
+	margin-left: 275px;
+	font-family: "Alef", sans-serif;
+	color: #8559c4;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px white;
+}
+
+h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #8559c4;
+}
+
+.logo {
+	float: left;
+	height: 125px;
+	width:  175px;
 }
 
 nav {
@@ -47,6 +66,10 @@ h1 a:link, h1 a:visited {
 	text-decoration: none;
 }
 
+nav li:hover {
+	background-color: #FF9D45;
+}
+
 address a {
 	color: white;
 }
@@ -56,13 +79,11 @@ address a:hover {
 	color: blue;
 }
 
-nav li:hover {
-	background-color: #FF9D45;
-}
-
 main {
 	margin-left: 225px;
 	margin-top: 25px;
+	padding-right: 300px;
+	margin-bottom: 50px;
 }
 
 .pizza {
@@ -71,39 +92,31 @@ main {
 	margin-bottom: 20px;
 }
 
-p {
-	margin-bottom: 20px;
-}
-
 .pizza-order {
 	height: 155px;
 	width: 280px;
 	float: right;
+	margin-right: 100px;
 }
 
-h2 {
-	margin-left: 275px;
-	font-family: "Alef", sans-serif;
-	color: #8559c4;
-	font-size: 200%;
-	font-weight: bold;
-	margin-bottom: 20px;
-	text-shadow: 2px 2px white;
+.pizza-oven {
+	height: 200px;
+	width: 325px;
+	float: right;
 }
 
 .menu {
 	font-size: 12pt;
 	margin-left: 50px;
-	padding-right: 300px;
 }
 
-h3 {
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: #8559c4;
+.menu dl {
+	margin-bottom: 20px;
 }
 
-.menu dt, .menu ul {
+.menu dt {
+	font-size: 12pt;
+	margin-left: 20px;
 	margin-bottom: 10px;
 }
 
@@ -111,18 +124,9 @@ h3 {
 	margin-bottom: 15px;
 }
 
-.menu dt {
-	font-size: 12pt;
-	margin-left: 20px;
-}
-
 .menu dd {
 	font-size: 11pt;
 	margin-left: 40px;
-}
-
-.menu dl {
-	margin-bottom: 20px;
 }
 
 .menu li {
@@ -132,7 +136,17 @@ h3 {
 	margin-left: 20px;
 }
 
-.menu-directions {
-	//border: ;
+.about {
+	text-decoration: underline;
 }
 
+footer {
+	border-top: solid 1px white;
+	font-size: 11pt;
+	padding: 5px 1em;
+	clear: both;
+}
+
+footer p {
+	margin-bottom: 5px;
+}
