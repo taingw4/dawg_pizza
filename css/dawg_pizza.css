@@ -22,18 +22,16 @@ h1 {
 	background-color: #8559c4;
 	text-shadow: 2px 2px #ff0000;
 	padding: .5em 450px;
-	margin-bottom: 25px;
+}
+
+h1 a {
+	color: yellow;
 }
 
 nav {
-	display: block;
-	position: absolute;
-	left: 0px;
-	top: 125px;
-	min-height: 100%;
-	width: 175px;
-	background-color: red;
 	float: left;
+	background-color: red;
+	width: 175px;
 }
 
 nav a {
@@ -44,7 +42,8 @@ nav a {
 }
 
 nav a:link, nav a:visited, 
-address a:link, address a:visited {
+address a:link, address a:visited,
+h1 a:link, h1 a:visited {
 	text-decoration: none;
 }
 
@@ -63,6 +62,7 @@ nav li:hover {
 
 main {
 	margin-left: 225px;
+	margin-top: 25px;
 }
 
 .pizza {
@@ -74,3 +74,63 @@ main {
 p {
 	margin-bottom: 20px;
 }
+
+.pizza-order {
+	height: 125px;
+	width: 250px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-left: 275px;
+	font-family: "Alef", sans-serif;
+	color: yellow;
+	font-size: 200%;
+	margin-bottom: 20px;
+}
+
+.menu {
+	font-size: 12pt;
+	margin-left: 50px;
+	padding-right: 300px;
+}
+
+h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: red;
+}
+
+.menu dt, .menu ul {
+	margin-bottom: 10px;
+}
+
+.menu dd, .menu ul {
+	margin-bottom: 15px;
+}
+
+.menu dt {
+	font-size: 12pt;
+	margin-left: 20px;
+}
+
+.menu dd {
+	font-size: 11pt;
+	margin-left: 40px;
+}
+
+.menu dl {
+	margin-bottom: 20px;
+}
+
+.menu li {
+	font-size: 11pt;
+	list-style-type: circle;
+	margin-left: 20px;
+}
+
+.menu-directions {
+	//border: ;
+}
+
