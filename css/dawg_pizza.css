@@ -2,3 +2,56 @@
 @import url(http://fonts.googleapis.com/css?family=Alef:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 
+body {
+	background-color: black;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+}
+
+.logo {
+	float: left;
+	height: 125px;
+	width:  175px;
+}
+
+h1 {
+	font-family: "Alef", sans-serif;
+	font-size: 350%;
+	color: yellow;
+	background-color: #8559c4;
+	text-shadow: 2px 2px #ff0000;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 400px;
+}
+
+nav {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 125px;
+	margin-right: 10px;
+	min-height: 100%;
+	width: 175px;
+	background-color: red;
+	float: left;
+}
+
+nav li {
+	padding: 15px;
+}
+
+nav a {
+	color: yellow;
+	font-weight: bold;
+	display: block;
+}
+
+nav a:link, nav a:visited, 
+.e-mail:link, .e-mail:visited {
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: #FF9D45;
+}
